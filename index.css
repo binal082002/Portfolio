@@ -430,18 +430,34 @@ h2 {
 .tech-stack {
   display: flex;
   justify-content: left;
+  margin-left: 1rem;
 }
 
 .tech-stack img {
   width: 45px;
   height: 45px;
   transition: transform 0.3s ease;
-  margin:10px 40px;
+  margin:10px 20px;
 }
 
 .tech-stack img:hover {
   transform: scale(1.1);
 }
+
+.external-link {
+  font-size: 0.9rem;
+  margin-left: 1px;
+  color: #8f8f8f;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.external-link:hover {
+  transform: scale(1.1);
+  color: #d9a4e7;
+}
+
+
 
 @media (max-width: 1000px) {
   .projects-grid {

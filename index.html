@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Binal's Portfolio</title>
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   </head>
   <body>
     <section class="nav">Binal's Portfolio</section>
@@ -36,11 +37,11 @@
                 <p>Associate Software Engineer</p>
                 <div class="exp_content">
                     <ul>
-                        <li>Developed and managed user authentication for a healthcare OTT platform.</li>
-                        <li>Implemented channel and video-specific registrations.</li>
-                        <li>Integrated Arabic translations for platform localization.</li>
-                        <li>Monitored and tracked user activities for personalized experiences.</li>
-                        <li>Ensured platform reliability through unit testing with Jest and React Testing Library.</li>
+                        <li>Developed user auth, registration flows & Arabic i18n support.</li>
+                        <li>Built & enhanced responsive UI components for web projects.</li>
+                        <li>Achieved 70%+ unit test coverage with Jest & React Testing Library.</li>
+                        <li>Improved platform stability by fixing bugs & optimizing workflows.</li>
+                        <li>Documented UI logic to streamline onboarding & team collaboration.</li>
                     </ul>
                 </div>
                 <div class="exp_images">
@@ -59,8 +60,7 @@
                     <ul>
                         <li>Developed user interfaces for the Transport Management System using React and JavaScript.</li>
                         <li>Implemented dynamic content management with React to enhance user experience.</li>
-                        <li>Optimized SQL queries to fetch data efficiently from the backend.</li>
-                        <li>Contributed to improving shipment management and system performance.</li>
+                        <li>Integrated MongoDB for seamless shipment data management.</li>
                     </ul>
                 </div>
                 <div class="exp_images">
@@ -123,9 +123,45 @@
         <div class="projects-grid">
           <!-- Project 1 -->
           <div class="project-box">
-            <a href="https://github.com/binal082002/BookStore"
-              ><h3>Bookstore E-commerce Website</h3></a
-            >
+            <h3>
+              TalkWave
+              <a href="https://talk-wave-real-time-chat.netlify.app/" target="_blank" rel="noopener noreferrer" class="external-link" aria-label="GitHub Repo">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </h3>
+            <ul class="project_content">
+              <li>
+                Built a real-time chat app using the MERN stack and Socket.IO.
+              </li>
+              <li>
+                Integrated instant text and voice messaging features.
+              </li>
+              <li>Used Firebase Authentication for secure user access.</li>
+              <li>
+                Implemented online/typing status indicators for live presence.
+              </li>
+              <li>
+                Designed a fully responsive UI for mobile and desktop.
+              </li>
+            </ul>
+            <div class="tech-stack">
+              <img src="./media/mongodb.jpeg" alt="mongodb" />
+              <img src="./media/express.png" alt="express" />
+              <img src="./media/react.jpeg" alt="react" />
+              <img src="./media/node.jpeg" alt="node" />
+              <img src="./media/socket.png" alt="socket" />
+            </div>
+          </div>
+
+
+          <!-- Project 2 -->
+          <div class="project-box">
+            <h3>
+              Bookstore
+              <a href="https://ecommbookstore.netlify.app" target="_blank" rel="noopener noreferrer" class="external-link" aria-label="GitHub Repo">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </h3>
             <ul class="project_content">
               <li>
                 User Authentication: Secure login and authorization for browsing
@@ -154,11 +190,14 @@
             </div>
           </div>
 
-          <!-- Project 2 -->
+          <!-- Project 3 -->
           <div class="project-box">
-            <a href="https://github.com/binal082002/DBMS_Project"
-              ><h3>Hostel Management System</h3></a
-            >
+            <h3>
+              Hostel Management System
+              <a href="https://github.com/binal082002/DBMS_Project" target="_blank" rel="noopener noreferrer" class="external-link" aria-label="GitHub Repo">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </h3>
             <ul class="project_content">
               <li>
                 Room Management: Check room availability and allocate rooms to
@@ -183,11 +222,14 @@
             </div>
           </div>
 
-          <!-- Project 3 -->
+          <!-- Project 4 -->
           <div class="project-box">
-            <a href="https://github.com/binal082002/CRUD"
-              ><h3>CRUD Web Application</h3></a
-            >
+            <h3>
+              CRUD Web Application
+              <a href="https://github.com/binal082002/CRUD" target="_blank" rel="noopener noreferrer" class="external-link" aria-label="GitHub Repo">
+                <i class="fas fa-arrow-up-right-from-square"></i>
+              </a>
+            </h3>
             <ul class="project_content">
               <li>Home Page: Introduction to CRUD operations.</li>
               <li>
@@ -247,7 +289,7 @@
 
     <script>
       var typed = new Typed("#element", {
-        strings: ["Web Developer", "MERN stack developer"],
+        strings: ["Software Engineer", "MERN stack developer"],
         typeSpeed: 50,
       });
     </script>
