@@ -170,6 +170,51 @@
         <h2>My Projects</h2>
 
         <div class="projects-grid">
+            <div class="project-box">
+              <h3>
+                IncidentFlow
+                <a
+                  href="https://incident-flow.netlify.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="external-link"
+                  aria-label="IncidentFlow Live Demo"
+                >
+                  <i class="fas fa-arrow-up-right-from-square"></i>
+                </a>
+              </h3>
+            
+              <ul class="project_content">
+                <li>
+                  Built an event-driven incident monitoring platform with secure
+                  project-scoped API-key ingestion.
+                </li>
+            
+                <li>
+                  Implemented Redis-backed asynchronous processing, deterministic error
+                  fingerprinting/grouping, spike detection, and severity calculation.
+                </li>
+            
+                <li>
+                  Designed an API → Redis Queue → Worker → PostgreSQL → Redis Pub/Sub →
+                  Socket.IO architecture for real-time incident updates.
+                </li>
+            
+                <li>
+                  Implemented JWT-based multi-tenant authorization, hashed ingest keys,
+                  project-isolated Socket.IO rooms, and acknowledge/resolve workflows.
+                </li>
+              </ul>
+            
+              <div class="tech-stack">
+                <img src="./media/react.jpeg" alt="react" />
+                <img src="./media/node.jpeg" alt="node" />
+                <img src="./media/postgresql.png" alt="postgresql" />
+                <img src="./media/redis.png" alt="redis" />
+                <img src="./media/socket.png" alt="socket.io" />
+                <img src="./media/docker.png" alt="docker" />
+              </div>
+            </div>
           <!-- Project 1 -->
           <div class="project-box">
             <h3>
